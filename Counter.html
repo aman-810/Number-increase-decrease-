@@ -1,0 +1,62 @@
+<html>
+<head>
+  <style>
+  .main{
+    
+    min-height:200px;
+    width:400px;
+    box-sizing:border-box;
+    padding:20px 57px;
+  }
+  h1{
+    text-align:center;
+    margin-top:50px;
+  }
+  .count{
+    color:blue;
+    font-size:50px;
+    font-weight:bold;
+    text-align:center;
+    margin-bottom:20px;
+  }
+  .increase , .reset, .decrease{
+    border:node;
+    font-size:18px;
+    border-radius:5px;
+    padding:5px 8px;
+    box-sizing:border-box;
+  }
+  </style>
+</head>
+<body>
+  <div class='main'>
+  <h1>Counter</h1>
+  <div class='count'>0</div>
+  <button class='increase' style="color:white; background:green;">Increase</button>
+  <button class='reset' style="color:black; background:lightgray;">Reset</button>
+  <button class='decrease' style='color:white; background:red;'>Decrease</button>
+  </div>
+    <script>
+  let div=document.querySelector('.count');
+  let increaseBtn=document.querySelector('.increase');
+  let resetBtn=document.querySelector('.reset');
+  let decreaseBtn=document.querySelector('.decrease');
+  let number;
+  increaseBtn.addEventListener('click',num);
+  function num()
+  {
+    number=div.innerText;
+    number++;
+    div.innerText=number;
+  }
+  resetBtn.addEventListener('click',()=>{
+    number=0;
+    div.innerText=number;
+  });
+  decreaseBtn.addEventListener('click',()=>{
+    number--;
+    div.innerText=number;
+  });
+  </script>  
+</body>
+</html>

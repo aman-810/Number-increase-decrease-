@@ -18,3 +18,6 @@ This is a simple counter application built using HTML, CSS, and JavaScript.
 
 ## Author
 Aman Prajapati
+## Screenshot
+
+![My project screenshot](Screenshot.png)

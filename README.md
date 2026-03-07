@@ -20,4 +20,4 @@ This is a simple counter application built using HTML, CSS, and JavaScript.
 Aman Prajapati
 ## Screenshot
 
-![My project screenshot](Screenshot.png)
+![My project screenshot](https://github.com/aman-810/Number-increase-decrease-/blob/main/Screenshot%20.png)
